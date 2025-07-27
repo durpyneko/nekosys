@@ -14,4 +14,4 @@ crates/nyioxus
 assets/ascii
 assets/*-*
 assets/*.png
-modules/tapo
+modules/
