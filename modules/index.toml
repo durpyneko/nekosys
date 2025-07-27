@@ -1,0 +1,2 @@
+[modules]
+example = { enabled = true, module_path = "modules/example" }
