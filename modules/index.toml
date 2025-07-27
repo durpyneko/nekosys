@@ -1,3 +1,0 @@
-[modules]
-nyanner-rs = { enabled = true, module_path = "modules/nyanner-rs" }
-tapo = { enabled = false }

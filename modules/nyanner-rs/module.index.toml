@@ -1,5 +1,0 @@
-[config]
-type = "exe"
-exe_path = "C:\\Users\\neko\\vs code repos\\NekoSys\\modules\\nyanner-rs\\Nyanner-rs.exe"
-args = ["start", "-w"]
-env_path = "modules\\nyanner-rs\\.env"
