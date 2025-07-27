@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="logo" src=".github/images/nekosys_logo.png width="300px">
+  <img alt="logo" src=".github/media/nekosys_logo.png width="300px">
   <h3><bold>NekoSys</bold></h3>
 </div>
 </br>
