@@ -1,0 +1,13 @@
+[package]
+name = "servx"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nyannel = { workspace = true }
+axum = { version = "0.8.4" }
+tower-http = { version = "0.6.6", features = ["fs"] }
+tokio = { workspace = true }
+log = { workspace = true }
+local-ip-address = { version = "0.6.5" }
+serde_json = { workspace = true }

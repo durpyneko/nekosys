@@ -1,0 +1,12 @@
+[package]
+name = "voice-recognizer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = { workspace = true }
+cpal = { workspace = true }
+vosk = { workspace = true }
+colored = { workspace = true }
+log = { workspace = true }
+tokio = { workspace = true }

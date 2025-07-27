@@ -1,0 +1,17 @@
+# Build & outputs
+/target
+
+# Libs
+/native
+/models
+
+# Env
+.env
+
+# Exclusion
+crates/webui
+crates/nyioxus
+assets/ascii
+assets/*-*
+assets/*.png
+modules/tapo

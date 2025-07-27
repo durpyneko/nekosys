@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/public/main.css">
+    <link rel="icon" type="image/x-icon" href="/public/default-v2.ico">
+    <title>Servx / Home</title>
+</head>
+
+<body style="background: linear-gradient(to bottom, rgb(161, 113, 143), rgb(22, 70, 110));">
+    <div class="p-4 pb-3 flex flex-row items-center drop-shadow-lg filter">
+        <div class="bg-[rgb(92,60,99)] border-2 rounded-[50%] w-25 h-25 shadow-2xl"
+            style="border-color: rgb(255, 255, 255);">
+            <img class="max-w-25 " src="/public/img.png">
+        </div>
+        <h1 class="pl-6 text-4xl font-bold drop-shadow-lg filter">Welcome to Servx Dashboard!</h1>
+
+    </div>
+    <!-- ?  -->
+    <div class="bg-[rgba(13,4,33,0.5)] mx-4 my-8 rounded-lg overflow-auto p-2 flex flex-col"
+        style="border-color: rgb(92, 60, 99); border-width: 1px;">
+        <span class="pl-2 pt-2 text-4xl underline mb-6">API endpoints</span>
+        <!-- TODO get base url dynamically from backend using api ⌄ -->
+        <span class="mb-2">[ Base URL: <span class="font-bold">http://localhost:4989/api/</span> ]</span>
+        <!-- TODO make these components: -->
+        <div class="flex flex-col gap-2">
+            <span class="ApiEntry ApiEntryGet font-bold"><span
+                    class="ApiEntryBadge ApiEntryTypeGet">GET</span>/hello<span class="font-normal">
+                    - Say hello to
+                    servx</span></span>
+            <span class=" ApiEntryPost font-bold"><span class="ApiEntryBadge ApiEntryTypePost">POST</span>/hello<span
+                    class="font-normal">
+                    - Say hello to
+                    servx (copy paste)</span></span>
+        </div>
+    </div>
+    <div class="bg-[rgba(13,4,33,0.5)] mx-4 my-8 rounded-lg overflow-auto p-2 flex flex-col"
+        style="border-color: rgb(92, 60, 99); border-width: 1px;">
+        <span class="pl-2 pt-2 text-4xl underline mb-6">Status</span>
+        <span>todo!</span>
+    </div>
+</body>
+
+</html>

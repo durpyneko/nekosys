@@ -1,0 +1,103 @@
+:root {
+    --color: rgb(238, 238, 238);
+    --background: rgb(32, 33, 36);
+}
+
+@font-face {
+    font-family: "Varela Round";
+    src: url(/public/fonts/VarelaRound-Regular.ttf) format("truetype");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    color: var(--color);
+    font-family: "Varela Round";
+    background-color: var(--background);
+}
+
+/* Background */
+body {
+    position: relative;
+    background: linear-gradient(to bottom, rgb(161, 113, 143), rgb(22, 70, 110));
+    height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* dither pattern */
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADFJREFUeNpi/P//PwM1ARMDlcGogaMGkGQAYyjQBYyh0ASMoQwdGEOZQTKGMp10AECAAQCXtRLRB2/MhwAAAABJRU5ErkJggg==");
+    opacity: 0.05;
+    pointer-events: none;
+    z-index: 1;
+}
+
+body>* {
+    position: relative;
+    z-index: 2;
+}
+
+.Center {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+.ApiEntryBadge {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ApiEntryPost {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: rgba(73, 204, 144, 0.5);
+    padding: 8px;
+    border-radius: 6px;
+    border-color: rgb(73, 204, 144);
+    border-width: 1px;
+    align-items: center;
+
+}
+
+.ApiEntryTypePost {
+    background-color: rgba(73, 204, 144);
+    padding: 8px 12px;
+    border-radius: 6px;
+    align-items: center;
+    font-weight: bold;
+    text-shadow:
+        0px 0px 1px black
+}
+
+.ApiEntryGet {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: rgba(1, 92, 187, 0.5);
+    padding: 8px;
+    border-radius: 6px;
+    border-color: rgb(1, 92, 187);
+    border-width: 1px;
+    align-items: center;
+}
+
+.ApiEntryTypeGet {
+    background-color: rgb(1, 92, 187);
+    padding: 8px 12px;
+    border-radius: 6px;
+    align-items: center;
+    font-weight: bold;
+    text-shadow:
+        0px 0px 1px black
+}
