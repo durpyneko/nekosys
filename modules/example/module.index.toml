@@ -1,0 +1,5 @@
+[config]
+type = "exe"
+exe_path = "path/to/exe"
+args = ["start", "--web"]
+env_path = "modules\\example\\.env"
